@@ -14,8 +14,8 @@ const Profile = () => {
 
   return (
     <div className="container">
+    <h2>Profile</h2>
 
-      <h2>Profile</h2>
       <input value={name} onChange={e => setName(e.target.value)} />
       <input value={email} onChange={e => setEmail(e.target.value)} />
       <button onClick={save}>Save</button>
